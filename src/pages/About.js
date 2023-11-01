@@ -10,7 +10,7 @@ function About() {
         <p>I also have extensive experience in ecological restoration and am passionate about the intersection of sustainability, technology, culture, and the environment. My desire is to create applications that connect users with their local environment, driving education and engagement in the world around us. I'm compassionate, professional, reliable, and eager to apply my proven project management and technical skills to the software industry.
         </p>
         <div className="about-skills-container">
-          <h2>My Skills</h2>
+          <h2>my skills</h2>
           <ul>
             <div>
               <li>JavaScript</li>

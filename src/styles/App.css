@@ -2,15 +2,32 @@
 
 @media (max-width: 576px) {
   .container {
-    margin-left: 5%;
-    margin-right: 5%;
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
   }
 }
 
 @media (max-width: 576px) {
-  .home-header {
-    width: 90%;
+  .container img {
+    max-width: 40%;
+    margin: 0 auto;
+    height: auto;
   }
+}
+
+@media (max-width: 576px) {
+  .about-container {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+html {
+  overflow-x: hidden;
 }
 
 .App {
@@ -25,10 +42,10 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
-  margin-right: 15%;
   height: 90vh;
   display: flex;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 nav {
@@ -59,7 +76,7 @@ nav {
 
 .container {
   display: flex;
-  margin-top: 25px;
+  margin: 0 auto;
   flex-direction: row;
 }
 
@@ -85,6 +102,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 25px;
+  max-width: 100%;
 }
 
 .home-header p {
@@ -133,14 +151,19 @@ button:hover {
 }
 
 .about-container {
-  margin-top: 5%;
+  margin-top: 100px;
   padding: 10px;
   line-height: 25px;
+  min-height: 100vh;
 }
 
 .about-container p {
   font-size: 16px;
   margin-left: 25px;
+}
+
+.about-container h2 {
+  margin-top: 0;
 }
 
 .about-container ul {

@@ -29,7 +29,7 @@
 
 @media (min-width: 577px) {
   .about-container {
-    margin-top: 400px; /* Adjust the margin-top value for desktop */
+    margin-top: 400px;
   }
 }
 
@@ -53,6 +53,7 @@ main {
   display: flex;
   max-width: 100%;
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 nav {
@@ -161,6 +162,7 @@ button:hover {
   padding: 10px;
   line-height: 25px;
   min-height: 100vh;
+  overflow-y: hidden;
 }
 
 .about-container p {

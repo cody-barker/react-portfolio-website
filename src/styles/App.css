@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300&display=swap');
 
+@media (max-width: 576px) {
+  .container {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+@media (max-width: 576px) {
+  .home-header {
+    width: 90%;
+  }
+}
+
 .App {
   text-align: center;
 }

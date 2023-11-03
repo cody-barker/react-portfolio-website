@@ -162,6 +162,7 @@ button:hover {
   padding: 10px;
   line-height: 25px;
   min-height: 100vh;
+  margin-bottom: 20px;
   overflow-y: hidden;
 }
 

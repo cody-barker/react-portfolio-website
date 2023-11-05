@@ -105,7 +105,7 @@ nav {
 }
 
 .home-left {
-  max-width: 288px;
+  max-width: 250px;
 }
 
 .home-right {
@@ -113,7 +113,7 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   margin-left: 25px;
-  max-width: 288px;
+  max-width: 250px;
 }
 
 .home-right p {

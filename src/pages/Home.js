@@ -11,7 +11,9 @@ function Home() {
 
   return(
     <div className="container">
-      <img src={headshot} alt="headshot"/>
+      <div className="home-div">
+        <img src={headshot} alt="headshot"/>
+      </div>
       <div className="home-header">
         <h1>Cody Barker</h1>
         <p>Full-Stack Software Engineer</p>

@@ -9,6 +9,14 @@
 }
 
 @media (max-width: 576px) {
+  .home-header {
+    max-width: 100%;
+    margin: 0 auto;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
   .container img {
     margin: 0 auto;
     height: auto;

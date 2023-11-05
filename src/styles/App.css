@@ -10,7 +10,6 @@
 
 @media (max-width: 576px) {
   .container img {
-    max-width: 40%;
     margin: 0 auto;
     height: auto;
   }

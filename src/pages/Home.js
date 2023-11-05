@@ -11,10 +11,10 @@ function Home() {
 
   return(
     <div className="container">
-      <div className="home-div">
+      <div className="home-left">
         <img src={headshot} alt="headshot"/>
       </div>
-      <div className="home-header">
+      <div className="home-right">
         <h1>Cody Barker</h1>
         <p>Full-Stack Software Engineer</p>
         <p>React | JavaScript | Ruby on Rails</p>

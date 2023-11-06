@@ -4,7 +4,6 @@ This is my software engineering portfolio website. It is a simple React app that
 
 <img src="src/assets/home-preview.png" alt="preview of the homepage"/>
 
-### Photo Credit:
-<br>
+### Photo Credit
 My love, <a href="kelliradphoto.com">Kelli Radwanski</a>
 

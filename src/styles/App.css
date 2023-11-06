@@ -1,20 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300&display=swap');
 
-/* @media (max-width: 576px) {
-  .container {
-    max-width: 100%;
-    margin: 0 auto;
-    height: auto;
-  }
-} */
-
-/* @media (max-width: 576px) {
-  .container img {
-    margin: 0 auto;
-    height: auto;
-  }
-} */
-
 @media (max-width: 576px) {
   .about-container {
     position: absolute;

@@ -4,9 +4,11 @@ import userIcon from '../assets/user-icon.svg'
 
 function NavBar() {
     return(
-        <nav>
-            <NavLink className="nav-link" to="/"><img src={homeIcon} alt="home icon"/></NavLink>
-            <NavLink className="nav-link" to="/about"><img src={userIcon} alt="about me icon"/></NavLink>
+        <nav class="nav main-nav">
+            <ul>
+                <li><NavLink className="nav-link" to="/"><img src={homeIcon} alt="home icon"/></NavLink></li>
+                <li><NavLink className="nav-link" to="/about"><img src={userIcon} alt="about me icon"/></NavLink></li>
+            </ul>
         </nav>
     )
 }

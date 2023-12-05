@@ -72,17 +72,18 @@ color:rgb(205, 184, 25, 0.66)
 
 .nav ul li:first-child {
   margin-right: auto;
+  margin-left: 0;
   font-size: 2rem;
 }
 
 .nav li {
   list-style: none; /* Remove default list styling */
+  margin: 0 1em 0 1em;
 }
 
 .nav a {
   font-size: 2em;
   font-weight: normal;
-  padding: 0.5em;
   color: #333;
   text-decoration: none;
   transition: 0.33s;
@@ -125,12 +126,6 @@ section {
   float: left;
   margin: 0 1em 1em 0;
 }
-
-
-
-/* .nav-link img {
-  display: flex;
-} */
 
 .container {
   display: flex;
@@ -251,10 +246,6 @@ button:hover {
   flex: 1;
   font-size: 16px;
   margin-left: 25px;
-}
-
-ul li {
-  list-style-type: none;
 }
 
 .about-skills-container {

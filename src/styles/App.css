@@ -26,56 +26,61 @@ html, body {
   font-family: "Spectral", serif;
 }
 
+main {
+  margin: 0 5%;
+}
+
 .App {
   text-align: center;
 }
 
+.nav {
+  padding: 0.5em;
+}
 
-/* main {
-  background-image: url("../assets/jungle.jpg");
-  background-size: cover;
-  background-position: 100%;
+.nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-} */
-
-nav {
-  display: block;
-  text-align: center;
-  height: 50%;
-}
-
-nav ul {
   margin: 0;
+  padding: 0;
 }
 
-nav li {
-  display: inline;
+.nav ul li:first-child {
+  margin-right: auto;
+  font-size: 3rem;
 }
 
-/* .nav-link {
-  display: inline-block;
-  color: #263a15;
-  margin: 10px;
+.nav li {
+  list-style: none; /* Remove default list styling */
+}
+
+.nav a {
+  font-size: 2em;
+  font-weight: normal;
+  padding: 0.5em;
+  color: #333;
   text-decoration: none;
-} */
-
-.nav-link:visited {
-  color: #263a15;
 }
 
-.nav-link:hover {
-  border-radius: 50%;
-  box-shadow: 0 0 7px rgb(205, 184, 25);
+.nav a:visited {
+  color: #333;
 }
 
-.nav-link img {
+.nav a:hover {
+  color: rgba(45, 59, 38, 0.3);
+}
+
+header {
+  min-height: 500px;
+  background-image: url(../assets/jungle.jpg);
+  background-size: cover;
+}
+
+
+/* .nav-link img {
   display: flex;
-}
+} */
 
 .container {
   display: flex;

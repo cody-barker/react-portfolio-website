@@ -7,16 +7,15 @@ import NotFound from './pages/NotFound'
 
 function App() {
   return (
-    <>
-    <header class="main-header">
-      <NavBar />
-    </header>
+    <main>
+    <NavBar />
+    <header></header>
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/about" element={<About />}/>
         <Route path="*" element={<NotFound />}/>
       </Routes>
-    </>
+    </main>
   );
 }
 

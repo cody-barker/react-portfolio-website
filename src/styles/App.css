@@ -11,7 +11,7 @@
   }
 } */
 
-@media (max-width: 375px) {
+@media (max-width: 768px) {
   .nav h1 {
     font-size: 0.6em;
   }
@@ -20,6 +20,7 @@
     font-size: 0.6em;
   }
 }
+
 * {
   box-sizing: border-box;
 }
@@ -32,7 +33,7 @@ html, body {
 }
 
 main {
-  margin: 0 5%;
+  margin: 0 5% 0 5%;
   position: relative;
 }
 
@@ -55,9 +56,10 @@ color:rgb(205, 184, 25, 0.66)
 
 .nav {
   position: fixed;
+  width: 100%;
   padding: 0.5em;
   background-color: #fff;
-  min-height: auto;
+  /* min-height: auto; */
   left: 0;
   right: 0;
 }
@@ -128,7 +130,8 @@ section {
 }
 
 .about-section-headshot {
-  height: 300px;
+  max-height: 300px;
+  width: auto;
   float: left;
   margin: 0 1em 1em 0;
 }

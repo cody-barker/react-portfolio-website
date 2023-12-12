@@ -105,7 +105,6 @@ a:hover {
 
 .header-wrap:before {
   content: ' ';
-  display: block;
   position: absolute;
   left: 0;
   top: 0;
@@ -121,14 +120,23 @@ a:hover {
 .header-content {
   position: relative;
   display: flex;
+  flex-direction: column;
+  display: flex;
   height: 92svh;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 .header-content h2{
-  font-size: 5em;
-  color: white;
+  font-size: 6em;
+  margin: 0;
+  padding: 0;
+}
+
+.header-content h3{
+  font-size: 1.5em;
+  font-weight: normal;
   margin: 0;
   padding: 0;
 }
@@ -149,16 +157,23 @@ section {
   text-align: justify;
 }
 
+.about-wrap {
+  padding: 10em 0em 10em 0em;
+}
+
+.about-content {
+  padding: 0 1em 0 1em;
+}
+
+
 .about-section-headshot {
   width: 50%;
   float: left;
-  margin: 0 1em 0.2em 0;
+  margin: 0 1em 0.2em 1em;
 }
 
 .about-section-fishing-photo {
-  margin: 2em auto 2em auto;
-  display: block;
-  max-width: 100%;
+  width: 100%;
 }
 
 .container {
@@ -273,10 +288,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   width: 33%;
-}
-
-.about-content {
-  flex: 1;
 }
 
 .about-skills-container {

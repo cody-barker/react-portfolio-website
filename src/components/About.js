@@ -8,7 +8,7 @@ function About() {
   }
 
   return(
-      <>
+      <div className="about-wrap">
         <header className="section-header">
           <h1>About Me</h1>
         </header>
@@ -20,7 +20,7 @@ function About() {
           <p className="about-content">When I'm not working, you can likely find me hiking new trails in the PNW with my girlfriend Kelli and our dog Rue, out on the river angling for trout and steelhead, or touring the many wonderful art galleries Portland has to offer.</p>
           <img className="about-section-fishing-photo" src={fishing}></img>
         </section>
-      </>
+      </div>
 
   )
 }

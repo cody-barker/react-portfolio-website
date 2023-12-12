@@ -36,19 +36,7 @@ html, body {
   font-family: "Spectral", serif;
   font-size: 18px;
   color: #333;
-}
-
-a {
-  text-decoration: none;
-  color: rgb(187, 160, 7)
-}
-
-a:visited {
-  color: rgb(187, 160, 7)
-}
-
-a:hover {
-  color:rgb(205, 184, 25, 0.66)
+  scroll-behavior: smooth;
 }
 
 .nav {
@@ -90,13 +78,6 @@ a:hover {
 .nav a:visited {
   color: #333;
 }
-
-/* .main-header {
-  min-height: 90svh;
-  background-image: url('../assets/jungle.jpg');
-  background-size: cover;
-  background-position: bottom;
-} */
 
 .header-wrap {
   position: relative;
@@ -144,7 +125,8 @@ a:hover {
 .section-header {
   display: flex;
   justify-content: center;
-  margin: 2em;
+  font-weight: bold;
+  font-size: 3em;
 }
 
 .section-header h1 {
@@ -158,22 +140,32 @@ section {
 }
 
 .about-wrap {
-  padding: 10em 0em 10em 0em;
+  background-color: rgb(245, 229, 211);
+  min-height: 800px;
 }
 
 .about-content {
   padding: 0 1em 0 1em;
 }
 
-
-.about-section-headshot {
+.about-left {
   width: 50%;
-  float: left;
-  margin: 0 1em 0.2em 1em;
 }
 
-.about-section-fishing-photo {
+.about-right{
+  width: 50%;
+}
+
+.about-section {
+  padding: 0 4em 0 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.about-section-headshot {
   width: 100%;
+ border-radius: 100%;
 }
 
 .container {
@@ -293,11 +285,6 @@ button:hover {
 .about-skills-container {
   margin-top: 40px;
 }
-
-h1 {
-  margin-top: 10px;
-}
-
 
 
 

@@ -1,4 +1,5 @@
 import headshot from '../assets/Cody_Barker_Headshot.jpg'
+import fishing from '../assets/cody_header_photo_applegate_fishing.jpg'
 
 function About() {
 
@@ -17,6 +18,7 @@ function About() {
           <p className="about-content">Prior to my software engineering career, I served as Director of Cultivation at Infinite Tree, where I managed the production and sale of over 200,000 USDA organic nursery plants, developed and released 4 industry-leading, university tested cultivars, conducted 15+ scientific cultivation studies, and provided consulting services to farms and government organizations domestically and internationally. I worked closely with the CTO on developing custom web applications that allowed us to control complex irrigations systems remotely, and monitor crucial environmental data from our 7 different facilities.</p>
           <p className="about-content">I also have extensive experience in ecological restoration and am passionate about the intersection of sustainability, technology, culture, and the environment. My desire is to create applications that connect users with their local environment, driving education and engagement in the world around us. I'm compassionate, professional, reliable, and eager to apply my proven project management and technical skills to the software industry.</p>
           <p className="about-content">When I'm not working, you can likely find me hiking new trails in the PNW with my girlfriend Kelli and our dog Rue, out on the river angling for trout and steelhead, or touring the many wonderful art galleries Portland has to offer.</p>
+          <img className="about-section-fishing-photo" src={fishing}></img>
         </section>
       </>
 

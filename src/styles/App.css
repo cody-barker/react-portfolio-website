@@ -13,11 +13,11 @@
 
 @media (max-width: 600px) {
   .nav h1 {
-    font-size: 0.7em
+    font-size: 1em
   }
 
-  .nav li {
-    font-size: 0.6em;
+  .nav a {
+    font-size: 0.8em;
   }
 
   .about-section-headshot {
@@ -29,17 +29,18 @@
   box-sizing: border-box;
 }
 
+
 html, body {
   margin: 0;
   padding: 0;
   font-family: "Spectral", serif;
+  font-size: 18px;
   color: #333;
 }
 
-main {
-  margin: 0 5% 0 5%;
-  /* position: relative; */
-}
+/* .App {
+  text-align: center;
+} */
 
 a {
   text-decoration: none;
@@ -51,50 +52,43 @@ a:visited {
 }
 
 a:hover {
-color:rgb(205, 184, 25, 0.66)
-}
-
-.App {
-  text-align: center;
+  color:rgb(205, 184, 25, 0.66)
 }
 
 .nav {
-  position: fixed;
-  padding: 0.5em;
   background-color: #fff;
-  /* min-height: auto; */
-  left: 0;
-  right: 0;
+  height: 10svh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .nav ul {
-  margin: 0 5% 0 5%;
   display: flex;
-  justify-content: center;
   align-items: center;
+  margin: 0;
   padding: 0;
 }
 
 .nav h1 {
   margin: 0;
-  padding: 0;
-  color: #333;
+  padding: 0 1em 0 1em;
 }
 
-.nav ul li:first-child {
+/* .nav ul li:first-child {
   margin-right: auto;
   margin-left: 0;
-  font-size: 2rem;
-}
+} */
 
 .nav li {
   list-style: none;
-  margin: 0 1em 0 1em;
+  margin: 0;
+  padding: 0 1em 0 1em;
+  font-size: 1.2em;
 }
 
 .nav a {
-  font-size: 2em;
-  font-weight: normal;
+  font-weight: bold;
   color: #333;
   text-decoration: none;
   transition: 0.33s;
@@ -109,10 +103,7 @@ color:rgb(205, 184, 25, 0.66)
 }
 
 .main-header {
-  min-height: 50vh;
-  background-image: url(../assets/jungle.jpg);
-  background-size: cover;
-  background-position: 0;
+  min-height: 100svh;
 }
 
 .section-header {
@@ -134,7 +125,13 @@ section {
 .about-section-headshot {
   width: 50%;
   float: left;
-  margin: 0 1em 1em 0;
+  margin: 0 1em 0.2em 0;
+}
+
+.about-section-fishing-photo {
+  margin: 2em auto 2em auto;
+  display: block;
+  max-width: 100%;
 }
 
 .container {
@@ -232,7 +229,6 @@ button:hover {
 }
 
 .about-container p {
-  font-size: 16px;
   margin-left: 25px;
 }
 
@@ -254,7 +250,6 @@ button:hover {
 
 .about-content {
   flex: 1;
-  font-size: 16px;
 }
 
 .about-skills-container {

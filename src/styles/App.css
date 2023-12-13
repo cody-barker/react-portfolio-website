@@ -181,7 +181,20 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
+}
 
+.skill-title {
+  margin: 0;
+}
+
+.skills-title-container {
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 2px solid #333;
+  background-color: rgb(250, 226, 199);
 }
 
 .skills-card {

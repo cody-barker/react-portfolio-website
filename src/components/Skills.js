@@ -4,7 +4,9 @@ function Skills() {
   return(
     <section className="skills-container">
       <div className="skills-card">
-        <h2>Frontend</h2>
+        <div className="skills-title-container">
+          <h2 className="skill-title">Frontend</h2>
+        </div>
         <ul className="skills-list">
           <li>JavaScript</li>
           <li>HTML</li>
@@ -16,7 +18,9 @@ function Skills() {
         </ul>
       </div>
       <div className="skills-card">
-        <h2>Backend</h2>
+      <div className="skills-title-container">
+          <h2 className="skill-title">Backend</h2>
+        </div>
         <ul className="skills-list">
           <li>Ruby on Rails</li>
           <li>RESTful APIs</li>
@@ -30,16 +34,18 @@ function Skills() {
         </ul>
       </div>
       <div className="skills-card">
-        <h2>Extended Skills</h2>
+      <div className="skills-title-container">
+          <h2 className="skill-title">Extended Skills</h2>
+        </div>        
         <ul className="skills-list">
           <li>Git</li>
           <li>Github</li>
           <li>Deployment</li>
           <li>Arduino IDE</li>
-          <li>Asana</li>
-          <li>Inkscape</li>
           <li>Project Management</li>
           <li>Research</li>
+          <li>Inkscape</li>
+          <li>Asana</li>
         </ul>
       </div>
     </section>

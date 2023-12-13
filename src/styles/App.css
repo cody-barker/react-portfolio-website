@@ -17,10 +17,27 @@
   #header-subtitle {
     font-size: 1.25em;
   }
+
+  #about-title {
+    font-size: 1em;
+  }
 }
 
 @media (max-width: 960px) {
- 
+  .about-section {
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+
+  #about-left {
+    width: 100%;
+  }
+
+  #about-right {
+    padding-top: 10%;
+    width: 100%;
+  }
 }
 
 * {
@@ -139,7 +156,8 @@ section {
 
 .about-wrap {
   background-color: rgb(250, 243, 235);
-  height: 750px;
+  padding-bottom: 125px;
+  height: auto
 }
 
 .about-content {
@@ -166,6 +184,8 @@ section {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  max-width: 1400px;
+  margin: 0 auto 0 auto;
 }
 
 .about-section-headshot {

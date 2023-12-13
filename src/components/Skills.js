@@ -2,7 +2,7 @@
 
 function Skills() {
   return(
-    <section className="skills-container">
+    <section id="skills-container" className="skills-container">
       <div className="skills-card">
         <div className="skills-title-container">
           <h2 className="skill-title">Frontend</h2>
@@ -18,7 +18,7 @@ function Skills() {
         </ul>
       </div>
       <div className="skills-card">
-      <div className="skills-title-container">
+        <div className="skills-title-container">
           <h2 className="skill-title">Backend</h2>
         </div>
         <ul className="skills-list">
@@ -34,7 +34,7 @@ function Skills() {
         </ul>
       </div>
       <div className="skills-card">
-      <div className="skills-title-container">
+        <div className="skills-title-container">
           <h2 className="skill-title">Extended Skills</h2>
         </div>        
         <ul className="skills-list">

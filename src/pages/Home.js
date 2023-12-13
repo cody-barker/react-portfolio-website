@@ -5,6 +5,7 @@ import devToIcon from '../assets/brand-dev.to.svg'
 import NavBar from '../components/NavBar.js'
 import About from '../components/About.js'
 import Projects from '../components/Projects.js'
+import Skills from '../components/Skills.js'
 import jungle from '../assets/jungle.jpg'
 
 function Home() {
@@ -19,6 +20,7 @@ function Home() {
         </div>
       </header>
       <About id="about"/>
+      <Skills />
       <Projects id="projects"/>
     </>
   )

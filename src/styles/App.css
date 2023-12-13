@@ -1,16 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Spectral:wght@200;300&display=swap');
 
-/* @media (max-width: 768px) {
-  .about-container {
-    position: absolute;
-    margin-top: 100px;
-    top: 0px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-  }
-} */
-
 @media (max-width: 600px) {
   .nav h1 {
     font-size: 1em
@@ -20,9 +9,18 @@
     font-size: 0.8em;
   }
 
-  .about-section-headshot {
-    min-width: 100%;
+  #header-title {
+    font-size: 5em;
+    align-self: center;
   }
+
+  #header-subtitle {
+    font-size: 1.25em;
+  }
+}
+
+@media (max-width: 960px) {
+ 
 }
 
 * {
@@ -102,11 +100,11 @@ html, body {
   position: relative;
   display: flex;
   flex-direction: column;
-  display: flex;
   height: 92svh;
   justify-content: center;
   align-items: center;
   color: white;
+  text-align: center;
 }
 
 .header-content h2{

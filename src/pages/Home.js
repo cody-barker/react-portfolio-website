@@ -15,8 +15,8 @@ function Home() {
       <NavBar />
       <header className="header-wrap">
         <div className="header-content">
-          <h2>Full-Stack Developer</h2>
-          <h3>Designing practical web applications with environmental sensibilities.</h3>
+          <h2 id="header-title">Full-Stack Developer</h2>
+          <h3 id="header-subtitle">Designing practical web applications with environmental sensibilities.</h3>
         </div>
       </header>
       <About id="about"/>

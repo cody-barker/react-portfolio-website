@@ -3,8 +3,15 @@ import soilMoistureSensorsPreview from '../assets/Soil Moisture Sensors Preview 
 import trailScanPreview from '../assets/TrailScan Preview Image.png'
 import trakablePreview from '../assets/Trakable Preview Image.png'
 import farmTrackerPreview from '../assets/Farm Tracker Preview Image.png'
+import whiteGithubIcon from '../assets/white-github-icon.svg'
 
 function Projects() {
+
+  function handleGitHubClick() {
+    
+  }
+
+
   return(
     <div id="projects">
       <div className="section-header">
@@ -19,6 +26,8 @@ function Projects() {
             </div>
             <div className="flip-card-back">
               <h3>Portland Native Plants</h3>
+              <h4>An expansive list of plant species native to Portland, Oregon.</h4>
+              <img src={whiteGithubIcon} onClick={() => window.open("https://github.com/cody-barker/portland-native-plants", '_blank').focus()} alt="github icon" />
             </div>
           </div>
         </div>
@@ -30,6 +39,8 @@ function Projects() {
             </div>
             <div className="flip-card-back">
               <h3>Soil Moisture Sensors</h3>
+              <h4>An expansive list of plant species native to Portland, Oregon.</h4>
+              <img src={whiteGithubIcon} alt="github icon" />
             </div>
           </div>
         </div>
@@ -41,6 +52,8 @@ function Projects() {
             </div>
             <div className="flip-card-back">
               <h3>Trailscan</h3>
+              <h4>An expansive list of plant species native to Portland, Oregon.</h4>
+              <img src={whiteGithubIcon} alt="github icon" />
             </div>
           </div>
         </div>
@@ -52,6 +65,8 @@ function Projects() {
             </div>
             <div className="flip-card-back">
               <h3>Trakable</h3>
+              <h4>An expansive list of plant species native to Portland, Oregon.</h4>
+              <img src={whiteGithubIcon} alt="github icon" />
             </div>
           </div>
         </div>
@@ -63,6 +78,8 @@ function Projects() {
             </div>
             <div className="flip-card-back">
               <h3>Farm Tracker</h3>
+              <h4>An expansive list of plant species native to Portland, Oregon.</h4>
+              <img src={whiteGithubIcon} alt="github icon" />
             </div>
           </div>
         </div>

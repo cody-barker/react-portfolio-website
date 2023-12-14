@@ -1,11 +1,8 @@
-import headshot from '../assets/Cody_Barker_Headshot.jpg'
-import githubIcon from '../assets/brand-github.svg'
-import linkedInIcon from '../assets/brand-linkedin.svg'
-import devToIcon from '../assets/brand-dev.to.svg'
 import NavBar from '../components/NavBar.js'
 import About from '../components/About.js'
 import Projects from '../components/Projects.js'
 import Skills from '../components/Skills.js'
+import Footer from '../components/Footer.js'
 
 function Home() {
 
@@ -21,6 +18,7 @@ function Home() {
       <About id="about"/>
       <Skills />
       <Projects id="projects"/>
+      <Footer />
     </>
   )
 }

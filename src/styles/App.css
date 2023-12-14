@@ -49,14 +49,19 @@
 
 @media (max-width: 600px) {
   .nav h1 {
-    font-size: 0.8em;
+    font-size: 1.5em;
     padding: 0;
   }
 
   .nav a {
-    font-size: 0.8em;
+    font-size: 1em;
   }
 
+  .nav ul li {
+    padding: 0 0.5em 0 0.5em;
+    display: flex;
+    align-items: center;
+  }
   #header-title {
     font-size: 4.5em;
     align-self: center;
@@ -97,9 +102,26 @@
     max-width: 375px;
   }
 
+  footer {
+    min-height: 600px;
+  }
 }
 
 @media (max-width: 480px) {
+
+  .nav h1 {
+    font-size: 0.8em;
+    padding: 0;
+  }
+
+  .nav a {
+    font-size: 0.6em;
+  }
+
+  .nav ul li {
+    padding: 0 0.5em 0 0.5em;
+  }
+
   #skills-container .skills-card {
     min-width: 75%;
     min-height: 400px;
@@ -432,6 +454,36 @@ section {
   transform: rotateY(180deg);
 }
 
+/*Footer*/
+
+footer {
+  height: 300px;
+  width: 100%;
+  background-color: rgb(250, 243, 235);
+  color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+}
+
+footer h4 {
+  font-size: 1.8em;
+}
+
+.footer-name {
+  max-width: 50%;
+}
+
+.footer-socials {
+  max-width: 50%;
+}
+
+.social-icon {
+  width: 50px;
+  margin: 1em;
+}
+
 /*Not Found*/
 
 .container {
@@ -440,3 +492,4 @@ section {
   justify-content: center;
   align-items: center;
 }
+

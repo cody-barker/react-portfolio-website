@@ -362,6 +362,12 @@ section {
 .project a {
   text-decoration: none;
   cursor: pointer;
+  transition: 0.5s;
+}
+
+.project a h3 {
+  margin: 0;
+  padding: 0;
 }
 
 .project a:visited {
@@ -370,6 +376,21 @@ section {
 
 .project a:hover {
   color: rgb(252, 226, 81);
+  font-size: 1.1em;
+}
+
+.project h4 {
+  padding: 1em;
+  margin: 0;
+}
+
+.icon img {
+  width: 100px;
+  transition: 0.5s;
+}
+
+.icon img:hover {
+  width: 110px;
 }
 
 /* This container is needed to position the front and back side */

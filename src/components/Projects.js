@@ -76,7 +76,7 @@ const projectCards = projects.map((project) => {
             <h3>{title}</h3>
           </a>
           <h4>{description}</h4>
-          <a href={github} target="_blank" rel="noopener" alt={{title} + "preview"}>
+          <a className="icon" href={github} target="_blank" rel="noopener" alt={{title} + "preview"}>
             <img src={whiteGithubIcon}/>
           </a>
         </div>

@@ -8,7 +8,7 @@ function Home() {
 
   return(
     <>
-      <header className="header-wrap">
+      <header className="header-wrap" loading="lazy">
         <div className="header-content">
           <h2 id="header-title">Full-Stack Developer</h2>
           <h3 id="header-subtitle">Designing practical web applications with environmental sensibilities.</h3>

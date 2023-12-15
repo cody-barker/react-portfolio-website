@@ -1,5 +1,4 @@
 
-
 function Skills() {
   return(
     <section id="skills-container" className="skills-container">

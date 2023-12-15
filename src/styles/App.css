@@ -487,6 +487,8 @@ footer h4 {
 /*Not Found*/
 
 .container {
+  height: 80svh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;

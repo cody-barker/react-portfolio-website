@@ -1,8 +1,5 @@
 import headshot from '../assets/headshot-square-crop.png'
 
-import Skills from '../components/Skills'
-
-
 function About() {
 
   return(

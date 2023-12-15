@@ -8,7 +8,6 @@ function Home() {
 
   return(
     <>
-      <NavBar />
       <header className="header-wrap">
         <div className="header-content">
           <h2 id="header-title">Full-Stack Developer</h2>

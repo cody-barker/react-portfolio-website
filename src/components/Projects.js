@@ -55,7 +55,6 @@ const projects = [
 ]
 
 const projectCards = projects.map((project) => {
-
   const { 
     id,
     title,

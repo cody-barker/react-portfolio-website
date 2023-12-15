@@ -33,7 +33,6 @@ function Footer() {
   ]
 
   const socialIcons = socials.map((social) => {
-
     const {
       id,
       name,

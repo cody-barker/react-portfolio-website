@@ -1,13 +1,10 @@
 
-import {NavLink} from 'react-router-dom'
-
 function NotFound() {
   return(
     <div className="container">
-      <p className="large-text">404 Not Found</p>
-      <p>That URL is incorrect.</p>
-      <p>Please navigate back to the home page.</p>
-      <NavLink to="/">Home</NavLink>
+      <h2>404 Not Found</h2>
+      <p>Oops. That URL is incorrect.</p>
+      <p>Please navigate to another page.</p>
     </div>
   )
 }

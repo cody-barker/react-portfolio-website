@@ -50,7 +50,9 @@ function Footer() {
   return(
     <footer id="socials">
       <div className="footer-name">
-        <h4>Cody Barker</h4>
+        <a href="#nav">
+          <h4>Cody Barker</h4>
+        </a>
         <p>Designing practical web applications with environmental sensibilities.</p>
       </div>
       <div className="footer-socials">

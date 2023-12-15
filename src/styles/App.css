@@ -487,6 +487,20 @@ footer h4 {
   margin: 1em;
 }
 
+footer a {
+  text-decoration: none;
+  color: #333;
+}
+
+footer a:hover {
+  cursor: pointer;
+}
+
+footer a:visited {
+  text-decoration: none;
+  color: #333;
+}
+
 /*Not Found*/
 
 .container {

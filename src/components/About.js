@@ -17,7 +17,7 @@ function About() {
             </h3>
           </div>
           <div id="about-right" className="about-right">
-            <img className="about-section-headshot" src={headshot} loading="lazy"></img>
+            <img className="about-section-headshot" src={headshot} loading="lazy" alt="cody barker's headshot"></img>
           </div>
         </div>
       </section>

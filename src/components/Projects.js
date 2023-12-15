@@ -71,12 +71,12 @@ const projectCards = projects.map((project) => {
           <img className="project-image" loading="lazy" src={image} alt={{title} + "preview"}/>
         </div>
         <div className="flip-card-back">
-          <a href={website} src={website} target='_blank' rel="noopener">
+          <a href={website} src={website} target='_blank' rel="noreferrer">
             <h3>{title}</h3>
           </a>
           <h4>{description}</h4>
-          <a className="icon" href={github} target="_blank" rel="noopener" alt={{title} + "preview"}>
-            <img src={whiteGithubIcon} loading="lazy"/>
+          <a className="icon" href={github} target="_blank" rel="noreferrer" alt={{title} + "preview"}>
+            <img src={whiteGithubIcon} loading="lazy" alt="github icon"/>
           </a>
         </div>
       </div>

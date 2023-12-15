@@ -41,7 +41,7 @@ function Footer() {
     } = social
 
     return (
-      <a key={id} href={link} target="_blank" rel='noreferer'>
+      <a key={id} href={link} target="_blank" rel='noreferrer'>
         <img className="social-icon" src={icon} alt={{name} + "icon"} loading="lazy"/>
       </a>
     )

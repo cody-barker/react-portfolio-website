@@ -190,7 +190,7 @@ html, body {
 }
 
 .nav a:hover {
-  color: rgba(45, 59, 38, 0.3);
+  opacity: 0.5;
 }
 
 .nav a:visited {
@@ -394,15 +394,6 @@ section {
   padding: 0;
 }
 
-.project a:visited {
-  color: white;
-}
-
-.project a:hover {
-  color: rgb(252, 226, 81);
-  font-size: 1.1rem;
-}
-
 .project h4 {
   padding: 1rem;
   margin: 0;
@@ -411,10 +402,6 @@ section {
 .icon img {
   width: 100px;
   transition: 0.5s;
-}
-
-.icon img:hover {
-  width: 110px;
 }
 
 /* This container is needed to position the front and back side */
@@ -508,10 +495,12 @@ footer h4 {
 footer a {
   text-decoration: none;
   color: #333;
+  transition-duration: 0.25s;
 }
 
 footer a:hover {
   cursor: pointer;
+  opacity: 0.5;
 }
 
 footer a:visited {

@@ -12,7 +12,7 @@
   }
 
   #about-right {
-    padding-top: 1em;
+    padding-top: 1rem;
     width: 100%;
   }
 
@@ -23,21 +23,21 @@
   #skills-container .skills-card {
     min-width: 75%;
     min-height: 400px;
-    margin: 2em 0 2em 0;
+    margin: 2rem 0 2rem 0;
     border-radius: 0;
     min-height: 500px
   }
 
   .skills-card li {
-    font-size: 1.5em;
+    font-size: 1.5rem;
   }
 
   div.skills-title-container {
-    font-size: 1.75em;
+    font-size: 1.75rem;
   }
 
   div.project {
-    margin: 1em 0 1em 0;
+    margin: rem 0 1rem 0;
   }
 
   img.project-image {
@@ -49,30 +49,30 @@
 
 @media (max-width: 600px) {
   .nav h1 {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     padding: 0;
   }
 
   .nav a {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   .nav ul li {
-    padding: 0 0.5em 0 0.5em;
+    padding: 0 0.5rem 0 0.5rem;
     display: flex;
     align-items: center;
   }
   #header-title {
-    font-size: 4.5em;
+    font-size: 4.5rem;
     align-self: center;
   }
 
   #header-subtitle {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   #about-title {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   #skills-container .skills-card {
@@ -84,11 +84,11 @@
   }
 
   .skills-card li {
-    font-size: 1.25em;
+    font-size: 1.25rem;
   }
 
   div.skills-title-container {
-    font-size: 1.3em;
+    font-size: 1.3rem;
   }
 
   section.projects-container {
@@ -110,16 +110,16 @@
 @media (max-width: 480px) {
 
   .nav h1 {
-    font-size: 0.8em;
+    font-size: 0.8rem;
     padding: 0;
   }
 
   .nav a {
-    font-size: 0.6em;
+    font-size: 0.6rem;
   }
 
   .nav ul li {
-    padding: 0 0.5em 0 0.5em;
+    padding: 0 0.5rem 0 0.5rem;
   }
 
   #skills-container .skills-card {
@@ -131,13 +131,13 @@
   }
 
   .skills-card li {
-    font-size: 1em;
+    font-size: 1rem;
   }
 
   div.project {
     height: 450px;
     max-width: 330px;
-    margin: 1em 0 1em 0
+    margin: 1rem 0 1rem 0
   }
 }
 
@@ -173,13 +173,13 @@ html, body {
 
 .nav h1 {
   margin: 0;
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
 }
 
 .nav li {
   list-style: none;
-  padding: 0 1em 0 1em;
-  font-size: 1.2em;
+  padding: 0 1rem 0 1rem;
+  font-size: 1.2rem;
 }
 
 .nav a {
@@ -230,13 +230,13 @@ html, body {
 }
 
 .header-content h2{
-  font-size: 6em;
+  font-size: 6rem;
   margin: 0;
   padding: 0;
 }
 
 .header-content h3{
-  font-size: 1.5em;
+  font-size: 1.5rem;
   font-weight: normal;
   margin: 0;
   padding: 0;
@@ -248,7 +248,7 @@ html, body {
   display: flex;
   justify-content: center;
   font-weight: bold;
-  font-size: 3em;
+  font-size: 3rem;
 }
 
 .section-header h2 {
@@ -263,12 +263,12 @@ section {
 
 .about-wrap {
   background-color: rgb(250, 243, 235);
-  padding: 3em 0 3em 0;
+  padding: 3rem 0 3rem 0;
   height: auto
 }
 
 .about-content {
-  padding: 0 1em 0 1em;
+  padding: 0 1rem 0 1rem;
 }
 
 .about-left {
@@ -287,7 +287,7 @@ section {
 }
 
 .about-section {
-  padding: 0 4em 0 4em;
+  padding: 0 4rem 0 4rem;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -353,14 +353,14 @@ section {
 /*Projects*/
 
 #projects .section-header {
-  margin: 1.5em 0 1.5em 0;
+  margin: 1.5rem 0 1.5rem 0;
 }
 
 .projects-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 2em;
+  padding-bottom: 2rem;
 }
 
 .project {
@@ -369,7 +369,7 @@ section {
   background-color: transparent;
   display: flex;
   justify-content: center;
-  margin: 2em;
+  margin: 2rem;
   background-color: transparent;
   perspective: 1000px;
 }
@@ -379,7 +379,7 @@ section {
 }
 
 .project h3 {
-  font-size: 2em;
+  font-size: 2rem;
 }
 
 .project a {
@@ -399,11 +399,11 @@ section {
 
 .project a:hover {
   color: rgb(252, 226, 81);
-  font-size: 1.1em;
+  font-size: 1.1rem;
 }
 
 .project h4 {
-  padding: 1em;
+  padding: 1rem;
   margin: 0;
 }
 
@@ -467,11 +467,11 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em;
+  padding: 2rem;
 }
 
 footer h4 {
-  font-size: 1.8em;
+  font-size: 1.8rem;
 }
 
 .footer-name {
@@ -484,7 +484,7 @@ footer h4 {
 
 .social-icon {
   width: 50px;
-  margin: 1em;
+  margin: 1rem;
 }
 
 footer a {

@@ -71,13 +71,16 @@ const projectCards = projects.map((project) => {
           <img className="project-image" loading="lazy" src={image} alt={{title} + "preview"}/>
         </div>
         <div className="flip-card-back">
-          <a href={website} src={website} target='_blank' rel="noreferrer">
-            <h3>{title}</h3>
-          </a>
+          <h3>{title}</h3>
           <h4>{description}</h4>
-          <a className="icon" href={github} target="_blank" rel="noreferrer" alt={{title} + "preview"}>
-            <img src={whiteGithubIcon} loading="lazy" alt="github icon"/>
-          </a>
+          <div className="button-container">
+            <a href={website} target="_blank" rel="noreferrer">
+              {title === "Soil Moisture Sensors" ? null: <button>Website</button>}
+            </a>
+            <a href={github} target="_blank" rel="noreferrer">
+              <button>Github</button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

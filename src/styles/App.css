@@ -380,6 +380,7 @@ section {
 
 .project h3 {
   font-size: 2rem;
+  margin: 0 auto;
 }
 
 .project a {
@@ -452,9 +453,26 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: #333;
-  color: white;
+  background-color: (inline);
+  color: black;
   transform: rotateY(180deg);
+}
+
+.button-container button{
+  background-color: #4f4f4f;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 1rem;
+  padding: 0.5em 1.5em;
+  margin: 1em;
+  transition-duration: 0.25s;
+}
+
+.button-container button:hover{
+  cursor: pointer;
+  background-color: #4f4f4f;
+  opacity: 0.8;
 }
 
 /*Footer*/

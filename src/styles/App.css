@@ -448,12 +448,13 @@ section {
 .button-container button{
   background-color: #4f4f4f;
   color: white;
-  border: 1px solid white;
   border-radius: 4px;
   font-size: 1rem;
   padding: 0.5em 1.5em;
   margin: 1em;
   transition-duration: 0.25s;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
 }
 
 .button-container button:hover{

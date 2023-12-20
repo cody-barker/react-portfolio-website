@@ -59,7 +59,7 @@
   }
 
   #about-title {
-    font-size: 1em;
+    font-size: 4rem;
   }
 
   #skills-container .skills-card {
@@ -82,6 +82,10 @@
     justify-content: center;
     align-items: center;
   }
+
+ .section-header h2 {
+  font-size: 4rem;
+ }
 
   .project {
     max-width: 330px;

@@ -1,6 +1,5 @@
-
 function Skills() {
-  return(
+  return (
     <section id="skills-container" className="skills-container">
       <div className="skill-cards-container">
         <div className="skills-card">
@@ -36,7 +35,7 @@ function Skills() {
         <div className="skills-card">
           <div className="skills-title-container">
             <h2 className="skill-title">Extended Skills</h2>
-          </div>        
+          </div>
           <ul className="skills-list">
             <li>Git</li>
             <li>Github</li>
@@ -50,7 +49,7 @@ function Skills() {
         </div>
       </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

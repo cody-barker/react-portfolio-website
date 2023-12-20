@@ -48,6 +48,7 @@
     display: flex;
     align-items: center;
   }
+
   #header-title {
     font-size: 4.5rem;
     align-self: center;
@@ -122,7 +123,6 @@
 
   #skills-container .skills-card {
     min-width: 75%;
-    min-height: 400px;
     margin-bottom: 25px;
     border-radius: 0;
   }

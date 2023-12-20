@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function NavBar() {
   return (
-    <nav class="nav" id="nav">
+    <nav className="nav" id="nav">
       <h1>Cody Barker</h1>
       <ul>
         <li>

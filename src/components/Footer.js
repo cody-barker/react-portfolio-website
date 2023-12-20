@@ -39,7 +39,7 @@ function Footer() {
         <img
           className="social-icon"
           src={icon}
-          alt={{ name } + "icon"}
+          alt={name + "icon"}
           loading="lazy"
         />
       </a>

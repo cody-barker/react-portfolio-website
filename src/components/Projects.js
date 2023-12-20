@@ -68,7 +68,7 @@ function Projects() {
               className="project-image"
               loading="lazy"
               src={image}
-              alt={{ title } + "preview"}
+              alt={title  + "preview"}
             />
           </div>
           <div className="flip-card-back">

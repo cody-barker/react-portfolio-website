@@ -3,8 +3,6 @@
 @media (max-width: 960px) {
   div.about-section {
     flex-direction: column;
-    width: 80%;
-    padding: 0;
   }
 
   #about-left {
@@ -22,7 +20,6 @@
 
   #skills-container .skills-card {
     min-width: 75%;
-    min-height: 400px;
     margin: 2em 0 2em 0;
     border-radius: 0;
   }
@@ -269,12 +266,12 @@ section {
 
 .about-container {
   background-color: rgb(250, 243, 235);
-  padding: 4em 2em 4em 2em;
+  padding: 4em 0em;
   margin-top: 2rem;
 }
 
 .about-content {
-  padding: 0 1rem 0 1rem;
+  padding: 0 0.5rem;
   max-width: 80rem;
 }
 
@@ -295,7 +292,8 @@ section {
 }
 
 .about-section {
-  padding: 0 2em 0 2em;
+  width: 100%;
+  padding: 0 1em;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -323,7 +321,7 @@ section {
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 2em;
-  padding: 4em 2em;
+  padding: 4em 0;
 }
 
 .skill-title {
@@ -333,6 +331,7 @@ section {
 
 .skills-title-container {
   height: 20%;
+  padding: 0 .5em;
   display: flex;
   justify-content: center;
   align-items: center;

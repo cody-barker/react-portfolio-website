@@ -325,6 +325,7 @@ section {
 
 .skill-title {
   margin: 0;
+  padding: .25em;
 }
 
 .skills-title-container {
@@ -338,7 +339,6 @@ section {
 }
 
 .skills-card {
-  /* width: 28%; */
   min-width: 300px;
   color: rgb(250, 243, 235);
   background-color:  #333;
@@ -356,6 +356,8 @@ section {
   justify-content: center;
   align-items: center;
   padding-left: 0;
+  padding: 1em;
+  margin-top: 0;
 }
 
 .skills-card li {

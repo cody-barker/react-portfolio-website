@@ -1,7 +1,6 @@
 import headshot from "../assets/headshot-square-crop.png";
 
 function About() {
-
   return (
     <section id="about" className="about-wrap">
       <header className="section-header">

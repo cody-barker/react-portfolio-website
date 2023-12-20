@@ -3,7 +3,6 @@ import soilMoistureSensorsPreview from '../assets/Soil Moisture Sensors Preview 
 import trailScanPreview from '../assets/TrailScan Preview Image.png'
 import trakablePreview from '../assets/Trakable Preview Image.png'
 import farmTrackerPreview from '../assets/Farm Tracker Preview Image.png'
-import whiteGithubIcon from '../assets/white-github-icon.svg'
 
 function Projects() {
 

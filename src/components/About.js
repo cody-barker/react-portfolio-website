@@ -2,7 +2,7 @@ import headshot from "../assets/headshot-square-crop.png";
 
 function About() {
   return (
-    <section id="about" className="about-wrap">
+    <section id="about" className="about-container">
       <header className="section-header">
         <h2 id="about-title">Hi. I'm Cody.</h2>
       </header>

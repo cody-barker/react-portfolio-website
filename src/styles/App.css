@@ -65,7 +65,7 @@
   }
 
   #about-title {
-    font-size: 1rem;
+    font-size: 1em;
   }
 
   #skills-container .skills-card {
@@ -89,10 +89,6 @@
     align-items: center;
   }
 
-  footer {
-    min-height: 600px;
-  }
-
   .project {
     max-width: 330px;
     max-height: 330px;
@@ -105,6 +101,10 @@
 
   .flip-card-back h3,
   h4 {
+    font-size: 0.8rem;
+  }
+
+  div.button-container button {
     font-size: 0.8rem;
   }
 }
@@ -121,6 +121,10 @@
 
   .nav ul li {
     padding: 0 0.5rem 0 0.5rem;
+  }
+
+  #about-title {
+    font-size: 0.75em;
   }
 
   #skills-container .skills-card {
@@ -151,15 +155,17 @@ body {
   font-size: 18px;
   color: #333;
   scroll-behavior: smooth;
+  background-color: rgb(250, 243, 235);
 }
 
 /*Navbar*/
 
 .nav {
-  height: 8svh;
+  padding: 1em 0.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
 }
 
 .nav ul {
@@ -199,7 +205,7 @@ body {
 
 .header-wrap {
   position: relative;
-  height: 92svh;
+  height: 94svh;
 }
 
 .header-wrap:before {
@@ -225,19 +231,20 @@ body {
   align-items: center;
   color: white;
   text-align: center;
+  padding: 2em;
 }
 
 .header-content h2 {
   font-size: 6rem;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
 }
 
 .header-content h3 {
   font-size: 1.5rem;
   font-weight: normal;
   margin: 0;
-  padding: 0;
+  padding: 0.5rem;
 }
 
 /*About*/
@@ -247,6 +254,7 @@ body {
   justify-content: center;
   font-weight: bold;
   font-size: 3rem;
+  padding: 0 0 2rem 0;
 }
 
 .section-header h2 {
@@ -259,14 +267,15 @@ section {
   text-align: justify;
 }
 
-.about-wrap {
+.about-container {
   background-color: rgb(250, 243, 235);
-  padding: 3rem 0 3rem 0;
-  height: auto;
+  padding: 4em 2em 4em 2em;
+  margin-top: 2rem;
 }
 
 .about-content {
   padding: 0 1rem 0 1rem;
+  max-width: 80rem;
 }
 
 .about-left {
@@ -286,11 +295,11 @@ section {
 }
 
 .about-section {
-  padding: 0 4rem 0 4rem;
+  padding: 0 2em 0 2em;
   display: flex;
   align-items: center;
   justify-content: space-around;
-  max-width: 1400px;
+  max-width: 80rem;
   margin: 0 auto 0 auto;
 }
 
@@ -303,20 +312,18 @@ section {
 
 .skills-container {
   background-color: rgb(250, 243, 235);
-  height: auto;
-  padding: 4% 0 4% 0;
 }
 
 .skill-cards-container {
   background-color: rgb(250, 243, 235);
-  padding: 4% 0 4% 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 1400px;
+  max-width: 80rem;
   flex-wrap: wrap;
   margin: 0 auto;
-  gap: 1em;
+  gap: 2em;
+  padding: 4em 2em;
 }
 
 .skill-title {
@@ -362,27 +369,29 @@ section {
 /*Projects*/
 
 #projects {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(250, 243, 235);
 }
 
 #projects .section-header {
-  margin: 1.5rem 0 1.5rem 0;
+  padding: 2rem 0 2rem 0;
+  color: #333;
+  margin: 0 auto;
 }
 
 .projects-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
-  padding-bottom: 2rem;
+  padding: 2rem 0 2rem 0;
 }
 
 .project {
+  margin: 1em;
   height: 450px;
   width: 450px;
   background-color: transparent;
   display: flex;
   justify-content: center;
-  margin: 2rem;
   perspective: 1000px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -480,9 +489,8 @@ section {
 /*Footer*/
 
 footer {
-  height: 300px;
   width: 100%;
-  background-color: rgb(250, 243, 235);
+  background-color: white;
   color: #333;
   display: flex;
   justify-content: space-between;
@@ -505,8 +513,8 @@ footer h4 {
 }
 
 .social-icon {
-  width: 50px;
-  margin: 1rem;
+  width: 3rem;
+  margin: 1em;
 }
 
 footer a {

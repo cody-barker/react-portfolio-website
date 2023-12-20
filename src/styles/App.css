@@ -317,7 +317,7 @@ section {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  max-width: 90%;
+  max-width: 1400px;
   flex-wrap: wrap;
   margin: 0 auto;
   gap: 1em;

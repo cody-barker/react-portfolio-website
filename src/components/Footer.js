@@ -26,7 +26,7 @@ function Footer() {
     {
       id: 3,
       name: "Resume",
-      link: "https://drive.google.com/file/d/1-Ve7W1xTTducqajRfEBZZL0o2ZixIQ8w/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1o59iiJfuttsRIdettlnruERFc63_m-g_/view?usp=sharing",
       icon: resumeIcon,
     },
   ];
